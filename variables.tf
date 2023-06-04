@@ -12,6 +12,10 @@ variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
 
+variable "resourcegroup" {
+  description = "This indicate the resource group where to deploy infrastructure."
+}
+
 variable "location" {
   description = "The region where the virtual network is created."
   default     = "centralus"
