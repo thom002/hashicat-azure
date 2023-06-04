@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 
 data "azurerm_resource_group" "myresourcegroup" {
-  name     = "Regroup_9kgvUXehLpS7L"
+  name     = var.resourcegroup
 }
 
 resource "azurerm_virtual_network" "vnet" {
